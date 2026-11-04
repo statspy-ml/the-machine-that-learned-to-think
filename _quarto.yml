@@ -6,7 +6,7 @@ project:
 book:
   title: "The Machine That Learned to Think"
   subtitle: "A Connected History of Artificial Intelligence"
-  author: "Seu nome"
+  author: "Rodrigo Polverari"
 
   chapters:
     - index.qmd
