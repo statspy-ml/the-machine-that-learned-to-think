@@ -1,0 +1,18 @@
+
+# The Machine That Learned to Think
+
+## A Connected History of Artificial Intelligence
+
+A história da Inteligência Artificial não começa
+com computadores.
+
+Ela começa muito antes, com a tentativa humana
+de compreender, formalizar e reproduzir o pensamento.
+
+Este livro investiga as conexões entre matemática,
+filosofia, lógica, engenharia, neurociência e
+computação que tornaram possível a inteligência
+artificial contemporânea.
+
+A história de como a humanidade construiu
+máquinas capazes de aprender.

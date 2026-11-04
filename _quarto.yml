@@ -1,0 +1,63 @@
+
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "The Machine That Learned to Think"
+  subtitle: "A Connected History of Artificial Intelligence"
+  author: "Seu nome"
+
+  chapters:
+    - index.qmd
+    - preface.qmd
+
+    - part: "Part I — Before Artificial Intelligence"
+      chapters:
+        - parts/part-01-origins/index.qmd
+        - parts/part-01-origins/01-automata.qmd
+        - parts/part-01-origins/02-logic.qmd
+        - parts/part-01-origins/03-mathematics.qmd
+
+    - part: "Part II — The Birth of Computation"
+      chapters:
+        - parts/part-02-computation/index.qmd
+
+    - part: "Part III — The Birth of AI"
+      chapters:
+        - parts/part-03-birth-of-ai/index.qmd
+
+    - part: "Part IV — The Deep Learning Revolution"
+      chapters:
+        - parts/part-04-deep-learning/index.qmd
+
+    - part: "Part V — Generative AI"
+      chapters:
+        - parts/part-05-generative-ai/index.qmd
+
+    - references.qmd
+
+  repo-url: "https://github.com/statspy-ml/the-machine-that-learned-to-think"
+  site-url: "https://statspy-ml.github.io/the-machine-that-learned-to-think/"
+  repo-actions: [edit, issue]
+  page-navigation: true
+
+bibliography: bibliography/references.bib
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    number-sections: true
+    search: true
+
+  pdf:
+    documentclass: scrbook
+    toc: true
+    number-sections: true
+
+  epub:
+    toc: true
+
+execute:
+  freeze: auto
