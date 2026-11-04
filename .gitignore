@@ -1,0 +1,16 @@
+/.quarto/
+**/*.quarto_ipynb
+
+# Quarto output
+_book/
+.quarto/
+
+# OS
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
+
+# Local development memory; intentionally not versioned
+AGENTS.md
